@@ -1,0 +1,6 @@
+[{"label": "Learn Javascript", "complete": true},
+  {"label": "Learn ES6", "complete": true},
+  {"label": "Learn React", "complete": false},
+  {"label": "Learn React Native", "complete": false},
+  {"label": "Learn Nodejs", "complete": false}
+]

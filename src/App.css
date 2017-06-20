@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapperTodo{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 50px 0px;
+}
+
+.wrapperInputFilter {
+  padding: 50px;
+  width: 50%;
+}
+
+.wrapperInputFilter * {
+  margin-bottom: 40px;
+}
+
+.wrapperTodoList {
+  width: 50%;
+  display: flex;
+  
+}
+
+
+
+.buttonAdd {
+  margin-left: 40px;
+}
+
+.complete {
+  color: red !important;
+  text-decoration: line-through !important;
+}
+
+.filterSelected{
+  background-color: #CCC !important;
+  color: red !important;
+}
+
